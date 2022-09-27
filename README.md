@@ -15,4 +15,6 @@
 3. The code and logical flow of the entire project is present in the `FlappyBird.py` file
 
 ## Notes
-1. Adjust the Clock().tick
+1. Adjust the pygame.time.Clock().tick() method to determine how fast each frame is processed.
+2. Adujst the score threshold according to your liking
+3. Experiment with adjusting the activation function to study its effects on the result
