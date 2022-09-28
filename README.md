@@ -8,6 +8,7 @@
 6. All the different options and parameters must be configured inside of the `configfeedforward.txt` template file which must be placed in the same folder as we will access it in our code
 7. We will define a threshold score, which upon being surpassed will indicate us to save the current weight as they are good enough for our liking. We will save these weights using the `pickle` library in the `best.pickle` file
 8. Now, we can load these saved weights and have our selected (best) neural network play Flappy Bird for us any time we wish
+9. Paper Link: https://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf 
 
 ## Game Engine
 1. We will start by making a clone of the game Flappy Bird using the `pygame` library
